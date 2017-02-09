@@ -49,7 +49,7 @@ mvn –o clean package
 
 and run with dependency to check it works offline.
 
-### 6. get the DECP server
+### 6. Get the DHCP server
 
 You need to get DECP server to make server and client communicate with each other.
 For example, I use my phone to share the date that my computer can access and set no data connection.
