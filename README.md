@@ -12,7 +12,6 @@ You need to download the apache-maven from Apache Maven Project.
 Visit [Maven official website](https://maven.apache.org/download.cgi), download the Maven zip file, for example : apache-maven-3.3.9-bin.zip. Unzip it to the folder you want to install Maven.
 Assume you unzip to this folder – C:\maven
 
-Extract all and put the files somewhere (e.g. I put the file under the C (C:\apache-maven-3.3.9))
 
 Open settings.xml  under the conf folder C:\apache-maven-3.3.9\conf) and edit it like below
 ```
