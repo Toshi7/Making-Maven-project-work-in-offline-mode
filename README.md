@@ -22,8 +22,11 @@ Open settings.xml  under the conf folder C:\apache-maven-3.3.9\conf) and edit it
 Update **PATH variable in user variables**, add this C:\apache-maven-3.3.9\bin to your path in user variables so that you can run the Maven’s command.
 
 ### 4. Verification
-Done, to verify it, run mvn –version in the command prompt.
-
+Done, to verify it, run following command in the command prompt for mvn -version.
+```
+mvn -v
+```
+If you see a similar message below, means the Apache Maven is installed successfully on Windows.
 ```
 C:\>mvn -v
 C:\
@@ -57,4 +60,4 @@ After that, reboot your Tera Term by running following command.
 ```
 sudo reboot
 ```
-You can see it is offline by using Ping command on command prompt to go to some websites (e.g. google.com) 
+You can see it is offline by using Ping command on command prompt and go to some websites (e.g. ping google.com) 
