@@ -13,7 +13,7 @@ Visit [Maven official website](https://maven.apache.org/download.cgi), download 
 Assume you unzip to this folder – C:\maven
 
 
-Open settings.xml  under the conf folder C:\apache-maven-3.3.9\conf) and edit it like below
+Open settings.xml  under the conf folder (C:\apache-maven-3.3.9\conf) and edit it like below
 ```
 <localRepository>C:\Users\User\.m2\repository</localRepository>
 ```
