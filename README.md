@@ -49,12 +49,26 @@ To observe that the build is completed successfully without any network connecti
 ```
 mvn –o clean package
 ```
+***-o*** option for offline command.
 
-and run with dependency to check it works offline.
+**or** you can open settings.xml under the {user.home}/.m2/ and edit it like below to build offline instead of running **mvn –o clean package**.  
+```
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+<offline>true</offline>
+</settings>
+```
+This ***<offline>true</offline>*** determines whether maven should attempt to connect to the network when executing a build.  
+This will have an effect on artifact downloads, artifact deployment, and others.  
+You set it permanently in the Maven settings file settings.xml.  
+[Settings Details - Maven](http://maven.apache.org/settings.html#Settings_Details)  
+
+**or** you can simply run your NetBeans without internet connection instead of running **mvn –o clean package**.
+
 
 ### 6. Get the DHCP server
 
-You need to get DHCP server to make server and client communicate with each other.
+You need to get DHCP server to make server and client communicate with each other.  
 For example, I use my phone to share the date that my computer can access and set no data connection on my phone.
 After that, reboot your Tera Term by running following command.
 ```
