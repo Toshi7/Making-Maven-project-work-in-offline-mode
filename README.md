@@ -55,7 +55,7 @@ and run with dependency to check it works offline.
 ### 6. Get the DHCP server
 
 You need to get DHCP server to make server and client communicate with each other.
-For example, I use my phone to share the date that my computer can access and set no data connection.
+For example, I use my phone to share the date that my computer can access and set no data connection on your phone.
 After that, reboot your Tera Term by running following command.
 ```
 sudo reboot
