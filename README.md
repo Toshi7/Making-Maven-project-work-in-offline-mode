@@ -1,4 +1,4 @@
-# Making-Maven-project-work-in-offline-mode
+# Making Maven project work in offline mode
 
 ### 1. JDK and JAVA_HOME
 First of all, make sure **JDK is installed**, and **“JAVA_HOME” variable is added as Windows environment variable**.
