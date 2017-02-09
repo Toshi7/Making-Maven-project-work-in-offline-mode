@@ -22,7 +22,7 @@ Open settings.xml  under the conf folder (C:\apache-maven-3.3.9\conf) and edit i
 Update **PATH variable in user variables**, add this C:\apache-maven-3.3.9\bin to your path in user variables so that you can run the Maven’s command.
 
 ### 4. Verification
-Done, to verify it, run following command in the command prompt for mvn -version.
+Done. To verify it, run following command in the command prompt for mvn -version.
 ```
 mvn -v
 ```
@@ -55,7 +55,7 @@ and run with dependency to check it works offline.
 ### 6. Get the DHCP server
 
 You need to get DHCP server to make server and client communicate with each other.
-For example, I use my phone to share the date that my computer can access and set no data connection on your phone.
+For example, I use my phone to share the date that my computer can access and set no data connection on my phone.
 After that, reboot your Tera Term by running following command.
 ```
 sudo reboot
