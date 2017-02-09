@@ -9,7 +9,7 @@ Start -> All Apps -> Control panel -> System -> Advanced System Settings -> Adva
 
 ### 2. Download Apache Maven
 You need to download the apache-maven from Apache Maven Project.
-Visit [Maven official website](https://maven.apache.org/download.cgi), download the Maven zip file, for example : apache-maven-3.2.2-bin.zip. Unzip it to the folder you want to install Maven.
+Visit [Maven official website](https://maven.apache.org/download.cgi), download the Maven zip file, for example : apache-maven-3.3.9-bin.zip. Unzip it to the folder you want to install Maven.
 Assume you unzip to this folder – C:\maven
 
 Extract all and put the files somewhere (e.g. I put the file under the C (C:\apache-maven-3.3.9))
@@ -53,9 +53,9 @@ and run with dependency to check it works offline.
 ### 6. get the DECP server
 
 You need to get DECP server to make server and client communicate with each other.
-For example, I use my phone to share the date that my computer can access and set no data connection
-After that, reboot your Tera Term by running following commmand 
+For example, I use my phone to share the date that my computer can access and set no data connection.
+After that, reboot your Tera Term by running following command.
 ```
 sudo reboot
 ```
-You can see it is offline by using Ping command on command prompt to go to some webiste (e.g. google.com) 
+You can see it is offline by using Ping command on command prompt to go to some websites (e.g. google.com) 
