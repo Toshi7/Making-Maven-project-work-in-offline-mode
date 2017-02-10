@@ -2,6 +2,7 @@
 
 ### 1. JDK and JAVA_HOME
 First of all, make sure **JDK is installed**, and **“JAVA_HOME” variable is added as Windows environment variable**.
+![](images/java_home_variable.png)  
 You can set environment variable for JAVA_HOME. If you are using Windows 8, you can find it by going to 
 ```
 Start -> All Apps -> Control panel -> System -> Advanced System Settings -> Advanced -> Environment variables.
@@ -19,7 +20,8 @@ Open settings.xml  under the conf folder (C:\apache-maven-3.3.9\conf) and edit i
 ```
 
 ### 3. Add To PATH
-Update **PATH variable in user variables**, add this C:\apache-maven-3.3.9\bin to your path in user variables so that you can run the Maven’s command.
+Update **PATH variable in user variables**, add this C:\apache-maven-3.3.9\bin to your path in user variables so that you can run the Maven’s command.  
+![](images/path_variable.png)
 
 ### 4. Verification
 Done. To verify it, run following command in the command prompt for mvn -version.
