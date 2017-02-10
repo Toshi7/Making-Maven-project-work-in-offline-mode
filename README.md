@@ -69,7 +69,8 @@ You set it permanently in the Maven settings file settings.xml.
 ### 6. Get the DHCP server
 
 You need to get DHCP server to make server and client communicate with each other.  
-For example, I use my phone to share the date that my computer can access and set no data connection on my phone.
+For example, I set internet sharing on my phone to share the data connection with my computet.  
+Once I connect my computer to Internet using my phone's internet connection, set no data connection on my phone.  
 After that, reboot your Tera Term by running following command.
 ```
 sudo reboot
